@@ -5,16 +5,14 @@ var outputDiv = document.querySelector("#output-Div");
 btnTranslate.addEventListener("click",clickhandler);
 
 var url = "https://api.funtranslations.com/translate/minion.json";
-// //var url = "https://api.funtranslations.com/translate/wow.json";
-// var url = "https://api.funtranslations.com/translate/ferb-latin.json";
+
  function minionURL(text)
 {
     return  url+ "?"+"text=" + text;
 }
 
 function clickhandler(){
-    //outputDiv.innerText = "ajgdy "+"ugSJHBGHGY "+"TFGJBHJY "+"UGWDHBWgadv ";
-   // outputDiv.innerText = Math.random().toString(36).slice(2, 7);
+    
     var text = input.value;
     
 
